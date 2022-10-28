@@ -1,0 +1,31 @@
+{
+  "name": "graduation-project",
+  "version": "1.0.0",
+  "description": "Desktop application for managing the graduation project",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "graduation",
+    "pyt-graduation"
+  ],
+  "author": "Nawras Bukhari",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "minimist": "^1.2.7"
+  },
+  "dependencies": {
+    "electron": "^21.2.0",
+    "@popperjs/core": "^2.11.6",
+    "better-npm-audit": "^3.7.3",
+    "bootstrap": "^4.6.0",
+    "electron-packager": "^15.4.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "jquery": "^3.6.1",
+    "python-shell": "^3.0.1"
+  }
+}
